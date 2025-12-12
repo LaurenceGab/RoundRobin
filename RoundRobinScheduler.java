@@ -5,20 +5,7 @@
 package javaapplication11;
 import java.util.*;
 
-/**
- * RoundRobinScheduler.java
- *
- * Menu-driven console program that simulates:
- *  1) Round Robin - Preemptive (standard RR)
- *  2) Round Robin - Non-Preemptive (as described in the lab: runs to completion if remaining <= quantum; otherwise preempt after quantum)
- *
- * - 100% user-input based.
- * - Prints Gantt chart in the boxed/time-marker style (Option 1).
- * - Prints process table (Arrival, Burst, Completion, Turnaround, Waiting).
- * - Prints Average Waiting Time (AWT), Average Turnaround Time (ATT), and CPU Utilization.
- *
- * Author: ChatGPT (GPT-5 Thinking mini) - produce code aligned to user's lab doc
- */
+
 
 public class RoundRobinScheduler {
 
@@ -385,4 +372,5 @@ public class RoundRobinScheduler {
         System.out.println();
         // End
     }
+
 }
